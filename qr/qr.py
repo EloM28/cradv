@@ -2,12 +2,7 @@ import qrcode
 import qrcode.image.svg
 
 # Le texte que vous souhaitez encoder dans le QR code
-data = (
-    "NAME=ASASAGARE SANA;\n"
-    + "DLNo=PNC0125420;\n"
-    + "cat=A,B;\n"
-    + "DOB=07-01-2000 12:00:00 AM;"
-)
+data = "The real world is not like how we think"
 
 # Créer un objet QR code
 qr = qrcode.QRCode(
